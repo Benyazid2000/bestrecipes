@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display-en: 'Cormorant Garamond', Georgia, serif;
+    --font-body-en: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display-ar: 'Amiri', Georgia, serif;
+    --font-body-ar: 'Cairo', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  html[dir="ltr"] {
+    font-family: var(--font-body-en);
+  }
+
+  html[dir="rtl"] {
+    font-family: var(--font-body-ar);
+  }
+}
+
+.font-display-en {
+  font-family: var(--font-display-en);
+}
+
+.font-display-ar {
+  font-family: var(--font-display-ar);
+}
+
+.font-body-en {
+  font-family: var(--font-body-en);
+}
+
+.font-body-ar {
+  font-family: var(--font-body-ar);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+

@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Arch Gradient -->
+    <linearGradient id="archGrad" x1="256" y1="24" x2="256" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#84CC16" />
+      <stop offset="28%" stop-color="#15803D" />
+      <stop offset="55%" stop-color="#065F46" />
+      <stop offset="82%" stop-color="#16A34A" />
+      <stop offset="100%" stop-color="#84CC16" />
+    </linearGradient>
+
+    <!-- Crescent Gradient -->
+    <linearGradient id="crescentGrad" x1="140" y1="100" x2="290" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#A3E635" />
+      <stop offset="45%" stop-color="#22C55E" />
+      <stop offset="100%" stop-color="#065F46" />
+    </linearGradient>
+
+    <!-- Dove Body Gradient -->
+    <linearGradient id="doveBodyGrad" x1="250" y1="180" x2="375" y2="305" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#84CC16" />
+      <stop offset="55%" stop-color="#16A34A" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Dove Wing Gradient -->
+    <linearGradient id="doveWingGrad" x1="230" y1="115" x2="330" y2="255" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="50%" stop-color="#16A34A" />
+      <stop offset="100%" stop-color="#A3E635" />
+    </linearGradient>
+
+    <!-- Mosque Gradient -->
+    <linearGradient id="mosqueGrad" x1="256" y1="270" x2="256" y2="435" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22C55E" />
+      <stop offset="35%" stop-color="#15803D" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Horizon Arc Gradient -->
+    <linearGradient id="horizonGrad" x1="64" y1="450" x2="448" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="30%" stop-color="#65A30D" />
+      <stop offset="50%" stop-color="#16A34A" />
+      <stop offset="70%" stop-color="#65A30D" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Laptop Screen Gradient -->
+    <linearGradient id="screenGrad" x1="256" y1="375" x2="256" y2="455" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#065F46" />
+      <stop offset="100%" stop-color="#022C22" />
+    </linearGradient>
+  </defs>
+
+  <!-- Pointed Islamic Ogee Arch -->
+  <path
+    d="M256 22 C226 62 170 84 126 128 C70 184 52 268 78 362 C86 392 98 418 112 438 L124 432 C112 410 102 384 96 356 C74 268 92 192 142 142 C182 102 230 82 256 48 C282 82 330 102 370 142 C420 192 438 268 416 356 C410 384 400 410 388 432 L400 438 C414 418 426 392 434 362 C460 268 442 184 386 128 C342 84 286 62 256 22 Z"
+    fill="url(#archGrad)"
+  />
+
+  <!-- Large Glossy Crescent Moon -->
+  <path
+    d="M274 96 C192 94 132 156 132 222 C132 288 194 334 268 310 C282 305 294 298 304 288 C272 296 232 286 212 254 C190 220 198 164 238 130 C250 118 264 106 274 96 Z"
+    fill="url(#crescentGrad)"
+  />
+
+  <!-- Mosque Silhouette: Left & Right Minarets + Central Dome -->
+  <!-- Left Minaret -->
+  <g fill="url(#mosqueGrad)">
+    <!-- Spire & Onion Dome -->
+    <path d="M148 270 L150 280 C138 286 135 298 140 306 L136 306 L136 314 L162 314 L162 306 L158 306 C163 298 160 286 148 280 Z" />
+    <!-- Upper Lantern with Window -->
+    <path d="M139 314 H159 V338 H139 Z M145 320 V334 H153 V320 C153 317 145 317 145 320 Z" fill-rule="evenodd" />
+    <!-- Balcony 1 -->
+    <rect x="133" y="338" width="32" height="9" rx="2" />
+    <!-- Middle Shaft -->
+    <rect x="137" y="347" width="24" height="30" />
+    <!-- Balcony 2 -->
+    <rect x="131" y="377" width="36" height="9" rx="2" />
+    <!-- Base Tower -->
+    <rect x="135" y="386" width="28" height="48" />
+  </g>
+
+  <!-- Right Minaret -->
+  <g fill="url(#mosqueGrad)">
+    <path d="M364 270 L366 280 C354 286 351 298 356 306 L352 306 L352 314 L378 314 L378 306 L374 306 C379 298 376 286 364 280 Z" />
+    <path d="M355 314 H375 V338 H355 Z M361 320 V334 H369 V320 C369 317 361 317 361 320 Z" fill-rule="evenodd" />
+    <rect x="349" y="338" width="32" height="9" rx="2" />
+    <rect x="353" y="347" width="24" height="30" />
+    <rect x="347" y="377" width="36" height="9" rx="2" />
+    <rect x="351" y="386" width="28" height="48" />
+  </g>
+
+  <!-- Central Mosque Dome, Side Domes & Finial Crescent -->
+  <g fill="url(#mosqueGrad)">
+    <!-- Dome Finial Crescent -->
+    <path d="M256 292 C249 292 244 297 244 304 C244 311 250 316 258 315 C263 314 267 311 269 307 C265 309 259 309 255 306 C251 302 252 295 256 292 Z" />
+    <rect x="254" y="314" width="4" height="10" />
+    <circle cx="256" cy="326" r="5" />
+    <!-- Main Central Dome -->
+    <path d="M194 388 C196 352 224 330 256 330 C288 330 316 352 318 388 H352 V432 H160 V388 H194 Z" />
+    <!-- Left Small Side Dome -->
+    <path d="M174 388 C174 374 182 365 188 360 C194 365 202 374 202 388 Z" />
+    <!-- Right Small Side Dome -->
+    <path d="M310 388 C310 374 318 365 324 360 C330 365 338 374 338 388 Z" />
+  </g>
+
+  <!-- Olive Branch in Dove's Beak -->
+  <g fill="#22C55E" stroke="#15803D" stroke-width="1.5">
+    <path d="M368 242 Q386 214 402 186" stroke="#15803D" stroke-width="3.5" stroke-linecap="round" fill="none" />
+    <!-- Leaves -->
+    <path d="M377 218 C372 206 376 194 384 190 C387 200 384 212 377 218 Z" fill="#65A30D" />
+    <path d="M390 202 C387 190 392 178 402 174 C403 186 398 196 390 202 Z" fill="#84CC16" />
+    <path d="M386 218 C396 212 408 214 414 222 C404 228 394 226 386 218 Z" fill="#22C55E" />
+    <path d="M376 232 C386 228 398 232 402 240 C392 244 382 240 376 232 Z" fill="#16A34A" />
+  </g>
+
+  <!-- Flying Green Dove -->
+  <!-- Dove Layered Wing (5 Feather Tips) -->
+  <path
+    d="M270 112 C266 138 282 168 318 192 C284 176 254 156 244 138 C240 162 258 190 302 208 C272 198 244 186 234 174 C234 196 254 216 296 224 C268 220 248 214 238 206 C244 224 264 236 296 238 C276 238 262 236 254 232 C262 246 280 252 304 248 C322 245 332 232 328 214 C322 184 286 148 270 112 Z"
+    fill="url(#doveWingGrad)"
+  />
+  <!-- Dove Body, Head, Eye & Tail -->
+  <path
+    d="M262 300 C282 282 298 262 316 246 C324 228 332 206 348 202 C360 200 370 208 374 218 L384 224 L372 228 C366 240 360 262 344 276 C328 290 308 294 292 306 C282 308 270 304 262 300 Z"
+    fill="url(#doveBodyGrad)"
+  />
+  <!-- Dove Eye -->
+  <circle cx="360" cy="214" r="3.5" fill="#FFFFFF" />
+
+  <!-- Sweeping Curved Green Horizon Base -->
+  <path
+    d="M64 472 C128 422 200 418 256 418 C312 418 384 422 448 472 C384 442 316 438 256 438 C196 438 128 442 64 472 Z"
+    fill="url(#horizonGrad)"
+  />
+
+  <!-- Foreground Laptop with </> Code Symbol -->
+  <g>
+    <!-- Laptop Screen Outer White Frame -->
+    <path
+      d="M210 372 H302 C307 372 311 376 312 381 L322 444 H190 L200 381 C201 376 205 372 210 372 Z"
+      fill="url(#screenGrad)"
+      stroke="#FFFFFF"
+      stroke-width="6"
+      stroke-linejoin="round"
+    />
+    <!-- Code Symbol </> -->
+    <!-- Left Angle < -->
+    <path
+      d="M240 400 L224 412 L240 424"
+      stroke="#FFFFFF"
+      stroke-width="6.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- Slash / -->
+    <path
+      d="M263 394 L249 430"
+      stroke="#FFFFFF"
+      stroke-width="6.5"
+      stroke-linecap="round"
+    />
+    <!-- Right Angle > -->
+    <path
+      d="M272 400 L288 412 L272 424"
+      stroke="#FFFFFF"
+      stroke-width="6.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <!-- Laptop Base -->
+    <path
+      d="M178 446 H334 C336 456 330 464 320 464 H192 C182 464 176 456 178 446 Z"
+      fill="#064E3B"
+      stroke="#FFFFFF"
+      stroke-width="5"
+      stroke-linejoin="round"
+    />
+    <!-- Laptop Notch -->
+    <rect x="246" y="452" width="20" height="4" rx="2" fill="#FFFFFF" />
+  </g>
+</svg>

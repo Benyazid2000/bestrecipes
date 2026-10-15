@@ -1,0 +1,6 @@
+{
+  "name": "bestrecipes أحسن الأطباق",
+  "description": "bestrecipes أحسن الأطباق — Bilingual (English & Arabic) culinary collection featuring 20 Moroccan, 20 French, and 20 Chinese dishes with the first 5 dishes free and full access for a one-time $7 payment via Visa or PayPal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
